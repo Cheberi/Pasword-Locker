@@ -10,25 +10,4 @@ class TestUser(unittest.TestCase):
     unittest.Testcase: TestCase class that helps in creating test cases
     """
 
-    def setUp(self):
-        """
-        Set up method to run before each test cases
-        """
-        self.new_user = User("Meshack Cheberi", "Meshack011")
-
-    def save_user(self):
-        """
-        saves a new user to user list
-        """
-
-        User.user_list.append(self)
-
-    @classmethod
-    def get_user(cls):
-        return cls.user_list
-
-    def delete_user(self):
-        """
-        delete a saved account from the user list
-        """
-        User.user_list.remove(self)
+    
