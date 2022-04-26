@@ -43,3 +43,9 @@ This  is a python application that manages login and signup credentials of a per
 
 ## Known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
+
+## licence
+
+MIT License
+
+Copyright (c) 2022 Meshack Cheberi
