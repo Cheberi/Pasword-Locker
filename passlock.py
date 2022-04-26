@@ -108,7 +108,7 @@ class Credentials():
         """
         return cls.credentials_list
 
-    def genPassword(stringLength=8):
+    def generatePassword(stringLength=8):
          """
          Generate a random password string of letters and digits and special characters
          """
