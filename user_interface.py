@@ -21,7 +21,7 @@ def display_user():
     return User.display_user()
 def login_user(username,password):
     """
-    function that checks whether a user exist and then login the user in.
+    function that checks whether a user exist and then logs the user in.
     """
   
     check_user = Credentials.verify_user(username,password)
@@ -175,7 +175,7 @@ def passlocker():
             password = generate_Password()
             print(f" {password} Has been generated succesfull. You can proceed to use it to your account")
         elif short_code == 'ex':
-            print("Thanks for using passwords store manager.. See you next time!")
+            print("")
             break
         else:
             print("Wrong entry... Check your entry again and let it match those in the menu")
